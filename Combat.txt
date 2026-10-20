@@ -1,0 +1,67 @@
+=== 1. Classes and Relationships ===
+Dwayne (40/40 HP) | Skills: Sword Slash (power 4) Block (power 3) Heavy Attack (power 4) [Warrior]
+The dungeon holds 3 enemies:
+  Skeever (15/15 HP) [Monster]
+  Drauger (20/20 HP) [Monster]
+  Dragon Priest (50/50 HP) [Monster] [Boss]
+Rejected: A combatant needs a name. (Parameter 'name')
+=== 2. Inheritance and Abstraction ===
+Dwayne enters the dungeon.
+
+Skeever appears!
+  Turn 1: Dwayne hits Skeever for 10. Skeever has 5/15 HP.
+  Turn 1: Skeever hits Dwayne for 4. Dwayne has 36/40 HP.
+  Turn 2: Dwayne hits Skeever for 8. Skeever has 0/15 HP.
+Skeever is defeated!
+
+Drauger appears!
+  Turn 1: Dwayne hits Drauger for 9. Drauger has 11/20 HP.
+  Turn 1: Drauger hits Dwayne for 4. Dwayne has 32/40 HP.
+  Turn 2: Dwayne hits Drauger for 11. Drauger has 0/20 HP.
+Drauger is defeated!
+
+Dragon Priest appears!
+  Turn 1: Dwayne hits Dragon Priest for 11. Dragon Priest has 39/50 HP.
+  Turn 1: Dragon Priest hits Dwayne for 5. Dwayne has 27/40 HP.
+  Turn 2: Dwayne hits Dragon Priest for 10. Dragon Priest has 29/50 HP.
+  Turn 2: Dragon Priest hits Dwayne for 5. Dwayne has 22/40 HP.
+  Turn 3: Dwayne hits Dragon Priest for 9. Dragon Priest has 20/50 HP.
+  Turn 3: Dragon Priest hits Dwayne for 5. Dwayne has 17/40 HP.
+  Turn 4: Dwayne hits Dragon Priest for 8. Dragon Priest has 12/50 HP.
+  Turn 4: Dragon Priest hits Dwayne for 4. Dwayne has 13/40 HP.
+  Turn 5: Dwayne hits Dragon Priest for 12. Dragon Priest has 0/50 HP.
+Dragon Priest is defeated!
+
+Dwayne survives the dungeon with 13/40 HP.
+Dwayne (13/40 HP) | Skills: Sword Slash (power 4) Block (power 3) Heavy Attack (power 4) [Warrior]
+=== 3. Polymorphism and Interfaces ===
+Dwayne Blocks the attack reverberating some of the damage back to the attacker!
+ShadowWizardMoneyGang moves their hands to form a spell and casts it!
+Skeever lunges with a savage bite!
+Dragon Priest roars and the whole dungeon shakes!
+WuTangDwayne casts Fireball and throws it at the enemy!
+Dragon Priest hurls a bolt of dark fire!
+=== 4. Built in Contracts and Collections ===
+List count: 4, HashSet count: 3
+Natural order:
+  Mage vs Dragon Priest: 9 turns
+  Mage vs Drauger Deathlord: 12 turns
+  Warrior vs Dragon Priest: 11 turns
+  Warrior vs Dragon Priest: 14 turns
+By turns:
+  Mage vs Dragon Priest: 9 turns
+  Warrior vs Dragon Priest: 11 turns
+  Mage vs Drauger Deathlord: 12 turns
+  Warrior vs Dragon Priest: 14 turns
+By boss:
+  Mage vs Dragon Priest: 9 turns
+  Warrior vs Dragon Priest: 11 turns
+  Warrior vs Dragon Priest: 14 turns
+  Mage vs Drauger Deathlord: 12 turns
+=== 5. Exceptions and Files ===
+Caught: Health must be positive. (Parameter 'maxHealth')
+Caught: The torch went out!
+The hero enters the dungeon.
+Something is about to go wrong...
+--- Log closed ---
+
