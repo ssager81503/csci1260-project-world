@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-  <None Update="data.txt" CopyToOutputDirectory="PreserveNewest" />
+  <None Update="Combat.txt" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>
