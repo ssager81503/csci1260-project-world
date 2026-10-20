@@ -1,10 +1,3 @@
-# Build and Run
-#
-# GitHub runs this file every time you push. It downloads your repository
-# onto a fresh Linux machine, builds your project, and runs it.
-#
-# A green check means your program built and ran to the end cleanly.
-# A red X means it did not compile, crashed, printed nothing, or waited
 name: Build and Run
 on:
 push:
